@@ -19,6 +19,6 @@ void Thaphanoi(int n,char A,char B,char C){
 
 int main(){
     int n;
-    printf("Nhap n: "); scanf("%d",&n);
+    printf("Nhap n la so nguyen lon hon 0: "); scanf("%d",&n);
     Thaphanoi(n,'A','B','C');
 }
